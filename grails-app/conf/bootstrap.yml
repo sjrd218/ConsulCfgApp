@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: myapp
+  cloud:
+    config:
+      enabled: false
+    consul:
+      host: localhost
+      port: 8500
+debug: true
